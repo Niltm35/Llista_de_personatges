@@ -41,7 +41,7 @@ class _AddDogFormPageState extends State<AddDogFormPage> {
               padding: const EdgeInsets.only(bottom: 8.0),
               child: new TextField(
                 controller: nameController,
-                onChanged: (v) => nameController.text = v,
+                //onChanged: (v) => nameController.text = v,
                 decoration:
                     new InputDecoration(labelText: 'Name of the Peaky Blinder'),
               ),
@@ -50,7 +50,7 @@ class _AddDogFormPageState extends State<AddDogFormPage> {
               padding: const EdgeInsets.only(bottom: 8.0),
               child: new TextField(
                 controller: locationController,
-                onChanged: (v) => locationController.text = v,
+                //onChanged: (v) => locationController.text = v,
                 decoration:
                     new InputDecoration(labelText: "Peaky Blinder's location"),
               ),
@@ -59,7 +59,7 @@ class _AddDogFormPageState extends State<AddDogFormPage> {
               padding: const EdgeInsets.only(bottom: 8.0),
               child: new TextField(
                 controller: descriptionController,
-                onChanged: (v) => descriptionController.text = v,
+                //onChanged: (v) => descriptionController.text = v,
                 decoration:
                     new InputDecoration(labelText: 'All about this Character'),
               ),
